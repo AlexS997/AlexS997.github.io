@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #1b1a22;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4%;
+    padding-left: 7vh;
+}
+
+
+footer{
+    background-color: #1b1a22;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ol{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+section-train{
+    display: flex;
+    background: linear-gradient(45.46deg,#606066 -3.33%,#1b1a22 75.21%);
+    /* justify-content: space-evenly; */
+}
+
+
+.img_bod{
+    width: 100%;
+    height: 20rem;
+    filter: opacity(90%) drop-shadow(0 0 #EA344C);
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.fitness-card{
+    background-color: #e1e0e9; 
+    width: 75%; 
+    height: 100%;
+    border-radius: 6%;
+}
+
+
+.calc_section{
+    background-color: #e1e0e9;
+    color: #EA344C;
+}
+
+
+li{
+    color: #EA344C;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 7px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: #e1e0e9;
+}
+
+a:visited {
+    color: #e1e0e9;
+  }
+
+a:hover{
+    background-color: #1b1a22;
+    color: #EA344C;
+}
+
+
+.img-home{
+    height: 100%;
+    width: 100%;
+    background-color: #EA344C;
+    filter: opacity(75%) drop-shadow(0 0 #EA344C);
+}
+
+.img-logo{
+    height: 100px;
+}
+
+.img-girl{
+    height: 600px;
+}
+
+.img-bmi{
+    background-color: #EA344C;
+    filter: opacity(75%) drop-shadow(0 0 #EA344C);
+    height: 100%;
+    width: 100%;
+}
+
+
+hr{
+    width: 5%;
+}
+
+.fitness-card h4{
+    color: #EA344C;
+    font-weight: 600;
+}
